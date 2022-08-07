@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+}
+
+.w-90 {
+    width: 90%;
+    margin: auto;
+}
+  
+.bg-beige{
+    background-color: #F5F1D9;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}   
+
+.BarSearch {
+    background-color: #F5F1D9;
+    border-radius: 5px;
+}
+
+.head-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-child ul li{
+    display: inline-block;
+}
+
+.head-child a{
+    text-decoration: none;
+    color: #000000;
+    margin-right: 40px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center/100% url("./Thebarber_Image/bandeau.jpg.jpg") no-repeat;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 25px 15px -10px inset;
+}
+
+.banner a{
+    padding: 10px 25px;
+    color: #ffffff;
+    background-color: #235453;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.container-text {
+    font-size: 25px;
+}  
+
+.container-text .text{
+    text-align: center;
+} 
+
+.all_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+    position:relative;
+    height: 600px;
+    border: 5px solid #DAA520;
+   }
+
+.all_card {
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.button_rdv{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    padding: 10px 25px;
+    color: #ffffff;
+    background-color: #235453;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.button_rdv_text{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer {
+width: 100%;
+margin-top: 30px; 
+}
+
+.bloc {
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+
+ul li {
+list-style: none;
+padding: 0px;
+}
+
+.bloc a{
+text-decoration: none;
+color: #000000;  
+}
+
+.resaux{
+display: inline-block;
+}
+
+.all_resaux{
+text-align: center;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.bg-blue {
+    background-color: #2c6071;
+}
+
+/* Copiright */
+.Copiright {
+text-align: center;
+font-size: 18px;
+background-color: #2c6071;
+color: #ffffff;
+}   
+
+
+
+
+
